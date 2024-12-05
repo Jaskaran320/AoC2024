@@ -399,5 +399,6 @@ FodyWeavers.xsd
 
 bin/
 obj/
+data/
 *.csproj
 *.sln
