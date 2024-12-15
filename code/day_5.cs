@@ -1,11 +1,9 @@
-public class Rule(int before, int after)
-{
+public class Rule(int before, int after) {
     public int Before { get; } = before;
     public int After { get; } = after;
 }
 
-public class Update(string line)
-{
+public class Update(string line) {
     public List<int> Pages { get; } = line.Split(',').Select(int.Parse).ToList();
 
     public int GetMiddleNumber() {
